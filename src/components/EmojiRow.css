@@ -1,0 +1,31 @@
+.component-emoji-result-row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.component-emoji-result-row img {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.component-emoji-result-row .title {
+  position: relative;
+  bottom: 8px;
+}
+
+.component-emoji-result-row .info {
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 10px;
+  color: #1a0404;
+  display: none;
+}
+
+.component-emoji-result-row:hover .info {
+  display: inline-block;
+}
